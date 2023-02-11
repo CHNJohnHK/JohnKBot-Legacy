@@ -6,9 +6,9 @@ import json
 import time
 import logging
 from datetime import datetime, timedelta
-from khl import Bot, Message, EventTypes, Event
-from khl.command import Rule
-from khl.card import CardMessage, Card, Module, Element, Types, Struct
+from khl import *
+from khl.command import *
+from khl.card import *
 from keep_alive import keep_alive
 
 bot = Bot(os.getenv("bot_token"))
